@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+body{
+    background: #E0E8FF;
+    font-family: 'Red Hat Display';
+    background-image: url("pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+   
+  
+}
+.background{
+max-width: 100%;
+}
+.card-container{
+    width: 450px;
+    background: #FFFFFF;
+    margin: auto;
+    height: 697px;
+    border-radius: 20px;
+}
+img{
+    width: 450px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.box-music{
+    display: flex;
+    width: 354px;
+    height: 98px;
+    background: #F7F9FF;
+    margin: auto;
+}
+
+.hero{
+    box-sizing: border-box;
+    width: 100%;
+}
+h1{
+    font-size: 28px;
+    line-height: 37px;
+    text-align: center;
+    top: 45px;
+    position: relative;
+}
+p{
+    line-height: 26px;
+    text-align: center;
+    padding: 42px;
+    top: 17px;
+    position: relative;
+    color: #717FA6;
+}
+.icon-music{
+    display: flex;
+    width: 48px;
+    height: 48px;
+    left: 24px;
+    position: relative;
+    top: 25px;
+}
+.price{
+    display: flex;
+    flex-direction: column;
+}
+
+.h3{
+  
+    line-height: 21px;
+        top: 25px;
+    position: relative;
+    padding-left: 35px;
+    color:rgba(31, 46, 85, 1);
+    ;
+} 
+.p2{
+    margin: auto;
+    position: relative;
+    color: #717FA6;
+    padding: 25px;
+    top: 0px;
+    left: 9px;
+}
+.p1{
+    padding: 0;
+    color: #382AE1;
+    text-decoration: underline;
+    cursor: pointer;
+    padding-left: 90px;
+    top: 33px;
+
+}
+.p1:hover{
+    color: rgba(118, 108, 241, 1);
+    text-decoration: none; 
+} 
+.header{
+    display: flex;
+    flex-direction: column;
+}
+.payment{
+    display: flex;
+    justify-content: center;
+    top: 32px;
+    position: relative;
+    background-color: rgba(56, 42, 225, 1);
+    margin: auto;
+    width: 354px;
+    height: 50px;
+    border-radius: 11px;
+    cursor: pointer;
+}
+.payment:hover{
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+    background: #766CF1;
+}
+.h4{
+    position: relative;
+    top: 15px;
+    color: rgba(255, 255, 255, 1);
+}
+.small{
+    display: flex;
+    justify-content: center;
+    top: 70px;
+    position: relative;
+}
+.h5{
+color: rgba(113, 127, 166, 1);
+font-size: 15px;
+line-height: 20px;
+cursor: pointer;
+}
+.h5:hover{
+    color: #1F2E55;
+}
+
